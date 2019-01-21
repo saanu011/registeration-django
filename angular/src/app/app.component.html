@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-form-field>
+    <input matInput placeholder="Name" type="text" [(ngModel)]='username'>
+  </mat-form-field><br>
+  <mat-form-field>
+    <input matInput placeholder="Email" type='text' [(ngModel)]='email'>
+  </mat-form-field><br>
+  <mat-form-field>
+    <input matInput placeholder="Create Password" type='password' [(ngModel)]='pwd1Add'>
+  </mat-form-field><br>
+  <mat-form-field>
+    <input matInput placeholder="Confirm Password" type='password' [(ngModel)]='password'>
+  </mat-form-field><br>
+
+  <button mat-raised-button (click)='onClick()'>Click It</button>
+</mat-card>
